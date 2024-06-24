@@ -12,58 +12,53 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/fragment_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Username"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="373dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fragment_pass_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pass_Value"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="448dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fragment_inc_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Increment" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fragment_Reset_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Reset" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fragment_dec_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="decrement" />
+        </LinearLayout>
     </LinearLayout>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/fragment_pass_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Pass_Value"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="448dp" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="517dp">
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/fragment_inc_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="Increment" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/fragment_Reset_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="Reset" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/fragment_dec_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="decrement" />
-
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/fragment_Username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="Username"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="373dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

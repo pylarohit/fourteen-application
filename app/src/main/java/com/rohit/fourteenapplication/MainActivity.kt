@@ -46,7 +46,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-
+    fun fragmentEditText(et_data: String) {
+        binding?.actUsername?.setText(et_data)
+    }
     fun changeButtonText(text:String) {
         binding?.actUsername?.setText(text)
     }
